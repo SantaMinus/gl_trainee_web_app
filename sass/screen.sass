@@ -13,7 +13,6 @@ body
     background-position: center 5%
     color: darkslategrey
     font-family: Arial, Helvetica, sans-serif 
-    height: 100%
     letter-spacing: 2pt
     line-height: 1.5
     text-indent: 20pt
@@ -23,42 +22,59 @@ body
         padding: 8pt
         &:hover
             color: black
-    nav
-        width: 100%
-    menu
-        left: 7%
-        position: fixed
-        menuitem
-            display: inline-block
-            float: left    
-    article
-        margin: auto
-        width: 60%
-        ul
-            padding: 50pt 0 0 70pt
-            li
-                display: inline-block
-        div
-            position: relative
-            text-align: justify
-            top: 15pt
-    form
-        bottom: 20%
-        left: 35%
-        
-        position: absolute
-        input
-            border-radius: 5pt
-            color: grey
-            font-size: 100%
-            height: 20pt
-            text-align: center
-            width: 150pt                
+    header  
+        border-bottom-color: white
+        border-bottom-style: solid
+        border-bottom-width: 7pt
+        nav
+            background-color: darkslategrey
+            height: 40pt
+            width: 100%
+            a
+                color: white
+                &:hover
+                    color: lightgrey
+            menu
+                left: 7%
+                position: fixed
+                menuitem
+                    display: inline-block
+                    float: left    
+    section
+        height: 80%
+        article
+            left: 20%
+            margin: 10pt auto
+            position: absolute
+            width: 60%
+            ul
+                li
+                    display: inline-block
+            div
+                max-height: 600pt
+                position: relative
+                text-align: justify
+                top: 0
+                &.well
+                    background-color: white
+        form
+            //height: 50pt
+            //padding: 35% 0 10% 35%
+            //position: relative
+            top: 75%
+            left: 35%
+            position: absolute
+            input
+                border-radius: 5pt
+                color: grey
+                font-size: 100%
+                height: 20pt
+                text-align: center
+                width: 150pt                
     footer
         bottom: 0
-        display: block
-        height: 50pt
-        
+        font-size: 80%
+        height: 20pt
         position: fixed
         text-align: center
         width: 100%
