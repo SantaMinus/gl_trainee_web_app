@@ -1,0 +1,149 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+/* line 5, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../var/lib/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 9, ../sass/screen.sass */
+body {
+  background-color: darkslategrey;
+  background-image: url("../img/background2.jpg");
+  background-repeat: no-repeat;
+  background-position: center 5%;
+  color: darkslategrey;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+  letter-spacing: 2pt;
+  line-height: 1.5;
+  text-indent: 20pt;
+}
+/* line 20, ../sass/screen.sass */
+body a {
+  color: darkslategrey;
+  display: inline-block;
+  padding: 8pt;
+}
+/* line 24, ../sass/screen.sass */
+body a:hover {
+  color: black;
+}
+/* line 26, ../sass/screen.sass */
+body nav {
+  width: 100%;
+}
+/* line 28, ../sass/screen.sass */
+body menu {
+  left: 7%;
+  position: fixed;
+}
+/* line 31, ../sass/screen.sass */
+body menu menuitem {
+  display: inline-block;
+  float: left;
+}
+/* line 34, ../sass/screen.sass */
+body article {
+  margin: auto;
+  width: 60%;
+}
+/* line 37, ../sass/screen.sass */
+body article ul {
+  padding: 50pt 0 0 70pt;
+}
+/* line 39, ../sass/screen.sass */
+body article ul li {
+  display: inline-block;
+}
+/* line 41, ../sass/screen.sass */
+body article div {
+  position: relative;
+  text-align: justify;
+  top: 15pt;
+}
+/* line 45, ../sass/screen.sass */
+body form {
+  bottom: 20%;
+  left: 35%;
+  position: absolute;
+}
+/* line 50, ../sass/screen.sass */
+body form input {
+  border-radius: 5pt;
+  color: grey;
+  font-size: 100%;
+  height: 20pt;
+  text-align: center;
+  width: 150pt;
+}
+/* line 57, ../sass/screen.sass */
+body footer {
+  bottom: 0;
+  display: block;
+  height: 50pt;
+  position: fixed;
+  text-align: center;
+  width: 100%;
+}

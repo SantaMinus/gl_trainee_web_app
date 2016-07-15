@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Test web app</title>
+      
+    <link href="stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script>
+      $( function() {
+        $( "#tabs" ).tabs();
+      } );
+    </script>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <menu>
+          <menuitem><a href=#>Home</a></menuitem>
+          <menuitem><a href=#>Portfolio</a></menuitem>
+          <menuitem><a href=#>Contacts</a></menuitem>
+          <menuitem><a href=#>About</a></menuitem>
+          <menuitem><a href=#>Help</a></menuitem>
+        </menu>
+      </nav>
+    </header>
+    <section>
+        <article id="tabs">
+            <ul>
+                <li><a href="#tabs-1">Nunc tincidunt</a></li>
+                <li><a href="#tabs-2">Proin dolor</a></li>
+                <li><a href="#tabs-3">Aenean lacinia</a></li>
+            </ul>
+            <div id="tabs-1">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla malesuada ornare elit et imperdiet. Mauris commodo rhoncus nisi, ac egestas risus. Fusce faucibus pellentesque massa ac vulputate. Aliquam libero ex, elementum at ultricies sit amet, ornare vel ex. Duis elementum sodales metus nec tempus. Mauris nec justo in urna commodo hendrerit eleifend et ex. Etiam gravida, lacus quis aliquet posuere, eros nibh semper felis, nec aliquam sapien libero at nisl. Sed gravida aliquam congue.</p> 
+                <p>Nulla facilisi. Vivamus rutrum consequat nulla et tristique. Maecenas consectetur, erat ut sodales feugiat, elit nulla hendrerit arcu, quis rutrum lorem sapien at justo. Fusce viverra at dui sed dictum. Fusce mollis luctus ex, eu bibendum est accumsan aliquet. Cras in arcu nisl. Donec lorem nisl, vestibulum non est non, euismod interdum purus. Phasellus at urna purus.</p>
+            </div>
+            <div id="tabs-2">
+                 <p>Suspendisse convallis tempor dui at convallis. Suspendisse sit amet malesuada erat, vel auctor risus. Proin lacus ipsum, volutpat sit amet eros maximus, vulputate gravida enim. Fusce scelerisque luctus massa, pulvinar varius ligula feugiat sit amet. Curabitur pulvinar diam sem, vitae euismod urna volutpat a. Maecenas non elementum nisi, in varius odio. Aenean a nibh eu metus eleifend sodales.</p>
+                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec hendrerit neque a ex tristique sodales. Integer rhoncus orci quis nisi mattis mattis. Integer scelerisque arcu sit amet nibh accumsan fringilla. Etiam a erat rutrum neque fringilla commodo. Mauris in ligula lectus. Aenean eget felis libero. Suspendisse vel magna ullamcorper, elementum purus et, aliquam sapien. Cras bibendum eleifend ipsum eget laoreet.</p>
+            </div>
+            <div id="tabs-3">
+                <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+            </div>
+        </article>
+        <form>
+            Subscribe to our news:
+            <input type="email" value="address@example.com">
+        </form>
+    </section>
+    <footer>
+      Copyright by Santaminus
+    </footer>
+  </body>
+</html>
