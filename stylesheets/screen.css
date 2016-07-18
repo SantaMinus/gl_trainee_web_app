@@ -77,81 +77,87 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   letter-spacing: 2pt;
   line-height: 1.5;
+  max-height: 980px;
   text-indent: 20pt;
 }
-/* line 19, ../sass/screen.sass */
+/* line 20, ../sass/screen.sass */
 body a {
   color: darkslategrey;
   display: inline-block;
   padding: 8pt;
 }
-/* line 23, ../sass/screen.sass */
+/* line 24, ../sass/screen.sass */
 body a:hover {
-  color: black;
+  color: lightgrey;
 }
-/* line 25, ../sass/screen.sass */
+/* line 26, ../sass/screen.sass */
+body a:focus {
+  color: lightgrey;
+}
+/* line 28, ../sass/screen.sass */
 body header {
   border-bottom-color: white;
   border-bottom-style: solid;
   border-bottom-width: 7pt;
 }
-/* line 29, ../sass/screen.sass */
+/* line 32, ../sass/screen.sass */
 body header nav {
   background-color: darkslategrey;
   height: 40pt;
   width: 100%;
 }
-/* line 33, ../sass/screen.sass */
+/* line 36, ../sass/screen.sass */
 body header nav a {
   color: white;
 }
-/* line 35, ../sass/screen.sass */
-body header nav a:hover {
-  color: lightgrey;
-}
-/* line 37, ../sass/screen.sass */
+/* line 38, ../sass/screen.sass */
 body header nav menu {
   left: 7%;
   position: fixed;
 }
-/* line 40, ../sass/screen.sass */
+/* line 41, ../sass/screen.sass */
 body header nav menu menuitem {
   display: inline-block;
   float: left;
 }
-/* line 43, ../sass/screen.sass */
-body section {
-  height: 80%;
-}
 /* line 45, ../sass/screen.sass */
 body section article {
-  left: 20%;
+  display: block;
   margin: 10pt auto;
-  position: absolute;
+  position: relative;
   width: 60%;
 }
-/* line 51, ../sass/screen.sass */
+/* line 52, ../sass/screen.sass */
+body section article ul a:hover {
+  color: black;
+}
+/* line 54, ../sass/screen.sass */
+body section article ul a:focus {
+  color: black;
+}
+/* line 56, ../sass/screen.sass */
 body section article ul li {
   display: inline-block;
 }
-/* line 53, ../sass/screen.sass */
+/* line 58, ../sass/screen.sass */
 body section article div {
   max-height: 600pt;
   position: relative;
   text-align: justify;
   top: 0;
 }
-/* line 58, ../sass/screen.sass */
+/* line 63, ../sass/screen.sass */
 body section article div.well {
   background-color: white;
 }
-/* line 60, ../sass/screen.sass */
+/* line 65, ../sass/screen.sass */
 body section form {
-  top: 75%;
-  left: 35%;
-  position: absolute;
+  display: block;
+  height: 50pt;
+  margin: auto;
+  width: 30%;
 }
-/* line 67, ../sass/screen.sass */
+/* line 70, ../sass/screen.sass */
 body section form input {
   border-radius: 5pt;
   color: grey;
@@ -160,12 +166,12 @@ body section form input {
   text-align: center;
   width: 150pt;
 }
-/* line 74, ../sass/screen.sass */
+/* line 77, ../sass/screen.sass */
 body footer {
   bottom: 0;
   font-size: 80%;
   height: 20pt;
-  position: fixed;
+  position: absolute;
   text-align: center;
   width: 100%;
 }

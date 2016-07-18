@@ -15,13 +15,16 @@ body
     font-family: Arial, Helvetica, sans-serif 
     letter-spacing: 2pt
     line-height: 1.5
+    max-height: 980px
     text-indent: 20pt
     a
         color: darkslategrey
         display: inline-block
         padding: 8pt
         &:hover
-            color: black
+            color: lightgrey
+        &:focus
+            color: lightgrey
     header  
         border-bottom-color: white
         border-bottom-style: solid
@@ -32,8 +35,6 @@ body
             width: 100%
             a
                 color: white
-                &:hover
-                    color: lightgrey
             menu
                 left: 7%
                 position: fixed
@@ -41,13 +42,17 @@ body
                     display: inline-block
                     float: left    
     section
-        height: 80%
         article
-            left: 20%
+            display: block
             margin: 10pt auto
-            position: absolute
+            position: relative
             width: 60%
             ul
+                a
+                    &:hover
+                        color: black
+                    &:focus
+                        color: black
                 li
                     display: inline-block
             div
@@ -58,12 +63,10 @@ body
                 &.well
                     background-color: white
         form
-            //height: 50pt
-            //padding: 35% 0 10% 35%
-            //position: relative
-            top: 75%
-            left: 35%
-            position: absolute
+            display: block
+            height: 50pt
+            margin: auto
+            width: 30%
             input
                 border-radius: 5pt
                 color: grey
@@ -75,7 +78,7 @@ body
         bottom: 0
         font-size: 80%
         height: 20pt
-        position: fixed
+        position: absolute
         text-align: center
         width: 100%
         
