@@ -14,9 +14,11 @@
       
     <!--My JavaScript !!ACHTING!! Doesn't work!-->
     <script>
-        $( "#email" ).keypress(function(event) {
-          if(event.which == 13) 
-             alert("Entered!");
+        $( document ).ready(function() {
+            $("#email").keypress(function(event) {
+              if(event.which == 13) 
+                 alert("You have successfully subscribed to our news!");
+            });
         });
     </script>
       
